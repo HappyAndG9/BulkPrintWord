@@ -176,7 +176,7 @@ public class Print {
             //添加打印属性
             HashPrintRequestAttributeSet pars = new HashPrintRequestAttributeSet();
             //设置单双页
-            pars.add(Sides.ONE_SIDED);    //双面长边翻页
+            pars.add(Sides.DUPLEX);    //双面长边翻页
             //执行打印工作
             printJob.print(pars);
         }finally {
